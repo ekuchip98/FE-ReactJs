@@ -8,4 +8,8 @@ const handleLoginApi = (email, password) => {
   return axios.post("/api/login", data);
 };
 
-export { handleLoginApi };
+const getAllUsers = (id) => {
+  return axios.post("/api/get-all-users", { id: id });
+};
+
+export { handleLoginApi, getAllUsers };
