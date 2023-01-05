@@ -83,12 +83,12 @@ class Login extends Component {
                 />
                 {this.state.isShowPassword ? (
                   <i
-                    class="far fa-eye-slash"
+                    className="far fa-eye-slash"
                     onClick={() => this.handleShowHidePassword()}
                   ></i>
                 ) : (
                   <i
-                    class="far fa-eye"
+                    className="far fa-eye"
                     onClick={() => this.handleShowHidePassword()}
                   ></i>
                 )}
